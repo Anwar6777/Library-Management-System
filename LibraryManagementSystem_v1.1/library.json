@@ -1,0 +1,42 @@
+{
+    "books": {
+        "5614": {
+            "book_id": 5614,
+            "title": "Harry Potter",
+            "author": "Abrahim Lincon",
+            "is_issued": false
+        },
+        "8668": {
+            "book_id": 8668,
+            "title": "Iron Man",
+            "author": "Tony Stark",
+            "is_issued": true
+        }
+    },
+    "members": {
+        "113": {
+            "member_id": 113,
+            "name": "Prakhar",
+            "issued_books": []
+        },
+        "123": {
+            "member_id": 123,
+            "name": "Anwar",
+            "issued_books": [
+                8668
+            ]
+        }
+    },
+    "issue_records": {
+        "5614": {
+            "member_id": 113,
+            "issue_date": "2026-06-11",
+            "due_date": "2026-06-25"
+        },
+        "8668": {
+            "member_id": 123,
+            "issue_date": "2026-06-11",
+            "due_date": "2026-06-25"
+        }
+    }
+}
